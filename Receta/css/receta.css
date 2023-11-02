@@ -162,9 +162,12 @@ dt {
         color: rgb(75, 82, 216);
     }
 }*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
+    #wrapper {width: 95%;
+                background-color: rgb(237, 213, 129)
+    }
     .container {
-        padding: 0 8% 0 0;
+        padding: 0 8% 0 8%;
         display: flex;
         flex-direction: column;
         font-family: radleyTex;
