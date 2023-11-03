@@ -18,7 +18,7 @@
 body {
     background-color: #ffaed0;
     background-image: url(../img/fondo-frescura-verano/169.jpg);
-    background-size: 40%;
+    background-size: 50%;
     opacity: 95%;
 }
 
@@ -163,8 +163,14 @@ dt {
     }
 }*/
 @media screen and (max-width: 1200px) {
-    #wrapper {width: 95%;
+    #wrapper {
+        width: 95%;
     }
+
+    body{
+        background-size: 100%;
+    }
+
     .container {
         padding: 0 8% 0 8%;
         display: flex;
