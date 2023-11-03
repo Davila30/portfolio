@@ -80,6 +80,7 @@ blockquote {
     display: flex;
     flex-direction: row;
     font-family: radleyTex;
+    margin-right: 5%;
 }
 
 .card {
@@ -163,23 +164,21 @@ dt {
         color: rgb(75, 82, 216);
     }
 }*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     #wrapper {
         width: 95%;
     }
-
-    body{
-        background-size: 100%;
-    }
-
     h1{
-        font-size: 1em;
+        font-size: 1;
     }
-
     .container {
-        padding: 0 8% 0 8%;
+        padding: 0 20% 0 8%;
+        margin-right: 0%;
         display: flex;
         flex-direction: column;
         font-family: radleyTex;
+    }
+    .div-list-prep{
+        margin-bottom: 5%;
     }
 }
