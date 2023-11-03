@@ -172,6 +172,10 @@ dt {
         background-size: 100%;
     }
 
+    h1{
+        font-size: 1em;
+    }
+
     .container {
         padding: 0 8% 0 8%;
         display: flex;
