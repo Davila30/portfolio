@@ -167,7 +167,7 @@ dt {
                 background-color: rgb(237, 213, 129)
     }
     .container {
-        padding: 0 15% 0 0%;
+        padding: 0 15% 0 15%;
         display: flex;
         flex-direction: column;
         font-family: radleyTex;
